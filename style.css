@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.header{
+    background-color: rgb(224, 165, 102);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.head{
+    padding: 15px 45px;
+}
+.tabs{
+    display: flex;
+    justify-content: right;
+    column-gap: 50px;
+    padding: 25px 45px;
+}
+.introduction{
+    height: 350px;
+    background-image: url(./Images/cupcake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.row0{
+    height: 50%;
+    width: 40%;
+    text-align:left;
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+.name{
+    font-variant:small-caps ;
+    font-size: 40px;
+}
+
+#button{
+    height: 30px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 29, 2);
+}
+.row1{
+    width: 100%;
+    height: 300px;
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    
+}
+#elem1{
+    background-color: rgb(227, 113, 179); 
+}
+.label{
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    text-align: center; 
+}
+#elem2{
+    background-image: url(./Images/cake1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+}
+#elem3{
+    background-color: blueviolet;
+}
+.row2{
+    width: 100%;
+    height: 300px;
+    display:grid;
+    grid-template-columns: 50% 25% 25%;
+    margin-bottom: 15px;
+}
+#elem5{
+    background-image: url(./Images/strawberry.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+}
+.list{
+    text-align: left;
+}
+#elem4{
+    background-color: rgb(113, 210, 227);
+}
+#elem6{
+    background-color: rgb(218, 176, 218);
+}
+.row3{
+    width: 100%;
+    height: 300px;
+    display:grid;
+    grid-template-columns: 25% 25% 50%;
+}
+#elem7{
+    background-image: url(./Images/donuts.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+}
+#elem8{
+    background-color: rgb(176, 199, 218); 
+}
+#elem9{
+    background-image: url(./Images/cookies.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat; 
+}
+.footer{
+    height: 100px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 45px;
+    text-align: center;
+}
+.numbers{
+    color:firebrick
+}
